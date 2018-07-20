@@ -75,5 +75,9 @@ module.exports = {
     host: 'api.ipstack.com/check',
     api_key: process.env.GEOIP_API_KEY || null,
     protocol: 'http://'
+  },
+  redis: {
+    port: process.env.REDIS_PORT,
+    hostname: process.env.REDIS_HOSTNAME
   }
 }
